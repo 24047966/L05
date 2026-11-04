@@ -31,7 +31,7 @@ const MyApp = () => {
 
         {/* Ex1B: Add a Picker that is labelled "User Type:" with 2 options Admin and Guest. */}
         <Text>User Type:</Text>
-            <Picker onValueChange={(value) => setType(value)} style={{backgroundColor:'grey'}} >
+            <Picker onValueChange={(value) => setType(value)} style={{backgroundColor:'blue'}} >
                 <Picker.Item label="Admin" value='Admin'/>
                 <Picker.Item label="Guest" value='Guest'/>
         </Picker>
